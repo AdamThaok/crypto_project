@@ -18,5 +18,37 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lea.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_ops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mceliece.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ecdsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math_ops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lea.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix_ops.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mceliece.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ecdsa.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math_ops.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

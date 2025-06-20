@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ecdsa.c" />
+    <ClCompile Include="lea.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="math_ops.c" />
+    <ClCompile Include="matrix_ops.c" />
+    <ClCompile Include="mceliece.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ecdsa.h" />
+    <ClInclude Include="lea.h" />
+    <ClInclude Include="math_ops.h" />
+    <ClInclude Include="matrix_ops.h" />
+    <ClInclude Include="mceliece.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
