@@ -4,12 +4,12 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-const EC_P = 233;   // Prime field modulus
-const EC_A = 1;     // Curve coefficient 'a'  
-const EC_B = 44;    // Curve coefficient 'b'
-const EC_N = 17;    // Subgroup order
-const EC_GX = 67;   // Generator x-coordinate
-const EC_GY = 184;  // Generator y-coordinate
+#define EC_P  233      // Prime field modulus 
+#define EC_A  1        // Curve coefficient 'a' 
+#define EC_B  44       // Curve coefficient 'b' 
+#define EC_N  17       // Subgroup order 
+#define EC_GX 67       // Generator x-coordinate 
+#define EC_GY 184      // Generator y-coordinate
 
 typedef struct { int x, y; bool infinity; } ec_point;
 typedef struct { int private_key; ec_point public_key; } ecdsa_keypair;
